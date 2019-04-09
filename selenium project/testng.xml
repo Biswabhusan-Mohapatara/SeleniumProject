@@ -38,6 +38,6 @@
 			<class name="com.selenium.test.CrossBrowserTest" />
 		</classes>
 	</test>
-
+<!--  -->
 
 </suite> 
