@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+
+
+	<test name="ChromeTest">
+
+		<parameter name="url" value="http:// www.gmail.com" />
+		<parameter name="username" value="biswa" />
+		<parameter name="password" value="hvnhhhjhjv" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.selenium.test.CrossBrowserTest" />
+		</classes>
+	</test>
+
+	<test name="FirefoxTest">
+
+		<parameter name="url" value="http:// www.gmail.com" />
+		<parameter name="username" value="biswa" />
+		<parameter name="password" value="hvnhhhjhjv" />
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.selenium.test.CrossBrowserTest" />
+		</classes>
+	</test>
+
+	<test name="ieTest">
+
+		<parameter name="url" value="http:// www.gmail.com" />
+		<parameter name="username" value="biswa" />
+		<parameter name="password" value="hvnhhhjhjv" />
+		<parameter name="browser" value="ie" />
+
+		<classes>
+			<class name="com.selenium.test.CrossBrowserTest" />
+		</classes>
+	</test>
+
+
+</suite> 
