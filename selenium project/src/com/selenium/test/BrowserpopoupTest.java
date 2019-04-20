@@ -25,7 +25,7 @@ public class BrowserpopoupTest {
 		     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		     driver.get("http://www.yahoo.com");
 		     
-		     driver.findElement(By.xpath("//span[text()='Next")).click();
+		     driver.findElement(By.xpath("//span[text()='Next']")).click();
 		     String parentwindow=driver.getWindowHandle();
 		     
 		     Set<String> windows=driver.getWindowHandles();
