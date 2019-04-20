@@ -20,7 +20,7 @@ public class PropertyTest {
 		System.out.println((prop.getProperty("url")));
 		System.out.println((prop.getProperty("username")));
 		System.out.println((prop.getProperty("pasword")));
-		System.out.println((prop.getProperty("chrome")));
+		System.out.println((prop.getProperty("browser")));
 		
 	}
 
